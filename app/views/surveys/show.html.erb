@@ -1,0 +1,54 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @survey.Firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @survey.Lastname %>
+</p>
+
+<p>
+  <strong>Ssn:</strong>
+  <%= @survey.SSN %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @survey.email %>
+</p>
+
+<p>
+  <strong>Concentration:</strong>
+  <%= @survey.Concentration %>
+</p>
+
+<p>
+  <strong>Dob:</strong>
+  <%= @survey.DoB %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @survey.Gender %>
+</p>
+
+<p>
+  <strong>Ethnicity:</strong>
+  <%= @survey.Ethnicity %>
+</p>
+
+<p>
+  <strong>Enrolled:</strong>
+  <%= @survey.Enrolled %>
+</p>
+
+<p>
+  <strong>Previouscollege:</strong>
+  <%= @survey.previouscollege %>
+</p>
+
+<%= link_to 'Edit', edit_survey_path(@survey) %> |
+<%= link_to 'Back', surveys_path %>

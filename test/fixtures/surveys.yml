@@ -1,0 +1,25 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  Firstname: MyString
+  Lastname: MyString
+  SSN: MyString
+  email: MyString
+  Concentration: MyString
+  DoB: 2016-04-29
+  Gender: MyString
+  Ethnicity: MyString
+  Enrolled: MyString
+  previouscollege: MyString
+
+two:
+  Firstname: MyString
+  Lastname: MyString
+  SSN: MyString
+  email: MyString
+  Concentration: MyString
+  DoB: 2016-04-29
+  Gender: MyString
+  Ethnicity: MyString
+  Enrolled: MyString
+  previouscollege: MyString

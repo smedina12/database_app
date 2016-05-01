@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Firstname:</strong>
+  <%= @banner.Firstname %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @banner.Lastname %>
+</p>
+
+<p>
+  <strong>Gpa:</strong>
+  <%= @banner.GPA %>
+</p>
+
+<p>
+  <strong>Concentration:</strong>
+  <%= @banner.Concentration %>
+</p>
+
+<%= link_to 'Edit', edit_banner_path(@banner) %> |
+<%= link_to 'Back', banners_path %>
